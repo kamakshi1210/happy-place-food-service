@@ -1,0 +1,108 @@
+/* big tablets 1400px */
+@media only screen and (max-width:1400px){
+    .main-nav {
+        margin: 30px 20px 0 0;
+    }
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{padding: 0 2%;}
+    .plan-price{
+        font-size: 200%;
+    }
+    blockquote{
+        font-size: 90%;
+    } 
+    
+}
+
+/* small tablets to big tablets from 768 to 1023px */
+@media only screen and (max-width:1023px){
+    .main-nav {
+        margin: 30px 10px 0 0;
+        font-size: 90%;
+    }
+    .main-nav li{
+        display: inline;
+        margin-left: 30px;
+    }
+    .row{
+        padding: 0;
+    }
+
+    body{font-size: 18px;}
+    section{
+        padding: 10px 0;
+    }
+    .city-feature{
+        font-size: 14.5px;
+    }
+    blockquote{
+        font-size: 95%;
+    } 
+    .plan-box{
+        width: 95%;
+    }
+    .plan-price{
+        font-size: 180%;
+    }
+    .footer-nav{
+        width:120% ;
+    }
+    
+    
+    
+}
+
+/* small phones  to small tabs from 481 to 767px */
+@media only screen and (max-width:767px){
+    body{font-size: 16px;}
+    
+    .row,
+    .hero-text-box{padding: 0 4%;}
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav{
+        display: none;
+    }
+    .city-feature{
+        font-size: 16px;
+        padding: 0 0 5px 0;
+    }
+    .city-feature i{
+        font-size: 95%;
+    }
+    .plan-box{
+        font-size: 125%;
+    }
+    .plan-box span{
+        font-size: 50%;
+    }
+    .plan-box i{
+        font-size: 90%;
+    }
+    .social-links{
+        float:left;
+    }
+    
+    
+
+
+    
+}
+
+/* small phones from 0 to 480px */
+@media only screen and (max-width:480px){
+    section{
+        padding: 25px 0;
+    }
+    .contact form{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+}
